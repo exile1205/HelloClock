@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>658CB748-2A62-4514-9A64-49EB72F1B51B</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C86D95FCAEB1FEA0694B5D4AC7241D7E5F42F31D</key>
+		<string>https://github.com/daltoniam/Starscream.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C86D95FCAEB1FEA0694B5D4AC7241D7E5F42F31D</key>
+		<string>Starscream/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/daltoniam/Starscream.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C86D95FCAEB1FEA0694B5D4AC7241D7E5F42F31D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C86D95FCAEB1FEA0694B5D4AC7241D7E5F42F31D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Starscream</string>
+		</dict>
+	</array>
+</dict>
+</plist>

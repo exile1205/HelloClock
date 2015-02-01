@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C202F511A7C760100C23AEF /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C202F501A7C760100C23AEF /* FriendsTableViewController.swift */; };
+		1C202F531A7C782B00C23AEF /* FriendsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C202F521A7C782B00C23AEF /* FriendsDetailViewController.swift */; };
+		1C202F551A7C7D2800C23AEF /* AddUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C202F541A7C7D2800C23AEF /* AddUserTableViewController.swift */; };
+		1C202F571A7C804E00C23AEF /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C202F561A7C804E00C23AEF /* ClockViewController.swift */; };
+		1C202F5A1A7CB02B00C23AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C202F581A7CB02B00C23AEF /* Main.storyboard */; };
+		1C202F5E1A7CF2A400C23AEF /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C202F5D1A7CF2A400C23AEF /* FriendsTableViewCell.swift */; };
+		1CB76ECE1A7CFAB700A1A8DD /* FriendDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76ECD1A7CFAB700A1A8DD /* FriendDetailTableViewCell.swift */; };
+		1CB76ED01A7D5B5100A1A8DD /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76ECF1A7D5B5000A1A8DD /* ConnectViewController.swift */; };
+		1CB76ED21A7D5BAF00A1A8DD /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76ED11A7D5BAF00A1A8DD /* CardViewController.swift */; };
+		1CB76ED41A7D747300A1A8DD /* RecieveCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76ED31A7D747300A1A8DD /* RecieveCallViewController.swift */; };
+		1CB76EDE1A7D789300A1A8DD /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76EDB1A7D789300A1A8DD /* Clock.swift */; };
+		1CB76EDF1A7D789300A1A8DD /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76EDC1A7D789300A1A8DD /* Friend.swift */; };
+		1CB76EE01A7D789300A1A8DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76EDD1A7D789300A1A8DD /* User.swift */; };
+		1CB76EE21A7D8D0200A1A8DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76EE11A7D8D0200A1A8DD /* LoginViewController.swift */; };
+		1CC390E01A7C635900F31BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC390DF1A7C635900F31BFB /* AppDelegate.swift */; };
+		1CC390E31A7C635900F31BFB /* HelloClock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CC390E11A7C635900F31BFB /* HelloClock.xcdatamodeld */; };
+		1CC390EA1A7C635900F31BFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC390E91A7C635900F31BFB /* Images.xcassets */; };
+		1CC390ED1A7C635900F31BFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC390EB1A7C635900F31BFB /* LaunchScreen.xib */; };
+		1CC390F91A7C635900F31BFB /* HelloClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC390F81A7C635900F31BFB /* HelloClockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC390F31A7C635900F31BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC390D21A7C635900F31BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC390D91A7C635900F31BFB;
+			remoteInfo = HelloClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C202F501A7C760100C23AEF /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FriendsTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1C202F521A7C782B00C23AEF /* FriendsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsDetailViewController.swift; sourceTree = "<group>"; };
+		1C202F541A7C7D2800C23AEF /* AddUserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AddUserTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1C202F561A7C804E00C23AEF /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
+		1C202F591A7CB02B00C23AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C202F5D1A7CF2A400C23AEF /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		1CB76ECD1A7CFAB700A1A8DD /* FriendDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailTableViewCell.swift; sourceTree = "<group>"; };
+		1CB76ECF1A7D5B5000A1A8DD /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		1CB76ED11A7D5BAF00A1A8DD /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		1CB76ED31A7D747300A1A8DD /* RecieveCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieveCallViewController.swift; sourceTree = "<group>"; };
+		1CB76EDB1A7D789300A1A8DD /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		1CB76EDC1A7D789300A1A8DD /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		1CB76EDD1A7D789300A1A8DD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1CB76EE11A7D8D0200A1A8DD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1CC390DA1A7C635900F31BFB /* HelloClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC390DE1A7C635900F31BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC390DF1A7C635900F31BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CC390E21A7C635900F31BFB /* HelloClock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloClock.xcdatamodel; sourceTree = "<group>"; };
+		1CC390E91A7C635900F31BFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CC390EC1A7C635900F31BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CC390F21A7C635900F31BFB /* HelloClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC390F71A7C635900F31BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC390F81A7C635900F31BFB /* HelloClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloClockTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC390D71A7C635900F31BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC390EF1A7C635900F31BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C202F4B1A7C70F100C23AEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CB76EDB1A7D789300A1A8DD /* Clock.swift */,
+				1CB76EDC1A7D789300A1A8DD /* Friend.swift */,
+				1CB76EDD1A7D789300A1A8DD /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1CC390D11A7C635900F31BFB = {
+			isa = PBXGroup;
+			children = (
+				1CC390DC1A7C635900F31BFB /* HelloClock */,
+				1CC390F51A7C635900F31BFB /* HelloClockTests */,
+				1CC390DB1A7C635900F31BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC390DB1A7C635900F31BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC390DA1A7C635900F31BFB /* HelloClock.app */,
+				1CC390F21A7C635900F31BFB /* HelloClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC390DC1A7C635900F31BFB /* HelloClock */ = {
+			isa = PBXGroup;
+			children = (
+				1C202F4B1A7C70F100C23AEF /* Model */,
+				1CC390DF1A7C635900F31BFB /* AppDelegate.swift */,
+				1CC390E91A7C635900F31BFB /* Images.xcassets */,
+				1C202F581A7CB02B00C23AEF /* Main.storyboard */,
+				1CC390EB1A7C635900F31BFB /* LaunchScreen.xib */,
+				1CC390E11A7C635900F31BFB /* HelloClock.xcdatamodeld */,
+				1CC390DD1A7C635900F31BFB /* Supporting Files */,
+				1C202F501A7C760100C23AEF /* FriendsTableViewController.swift */,
+				1C202F521A7C782B00C23AEF /* FriendsDetailViewController.swift */,
+				1C202F541A7C7D2800C23AEF /* AddUserTableViewController.swift */,
+				1C202F561A7C804E00C23AEF /* ClockViewController.swift */,
+				1C202F5D1A7CF2A400C23AEF /* FriendsTableViewCell.swift */,
+				1CB76ECD1A7CFAB700A1A8DD /* FriendDetailTableViewCell.swift */,
+				1CB76ED31A7D747300A1A8DD /* RecieveCallViewController.swift */,
+				1CB76ECF1A7D5B5000A1A8DD /* ConnectViewController.swift */,
+				1CB76ED11A7D5BAF00A1A8DD /* CardViewController.swift */,
+				1CB76EE11A7D8D0200A1A8DD /* LoginViewController.swift */,
+			);
+			path = HelloClock;
+			sourceTree = "<group>";
+		};
+		1CC390DD1A7C635900F31BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC390DE1A7C635900F31BFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CC390F51A7C635900F31BFB /* HelloClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC390F81A7C635900F31BFB /* HelloClockTests.swift */,
+				1CC390F61A7C635900F31BFB /* Supporting Files */,
+			);
+			path = HelloClockTests;
+			sourceTree = "<group>";
+		};
+		1CC390F61A7C635900F31BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC390F71A7C635900F31BFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC390D91A7C635900F31BFB /* HelloClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC390FC1A7C635900F31BFB /* Build configuration list for PBXNativeTarget "HelloClock" */;
+			buildPhases = (
+				1CC390D61A7C635900F31BFB /* Sources */,
+				1CC390D71A7C635900F31BFB /* Frameworks */,
+				1CC390D81A7C635900F31BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloClock;
+			productName = HelloClock;
+			productReference = 1CC390DA1A7C635900F31BFB /* HelloClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CC390F11A7C635900F31BFB /* HelloClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC390FF1A7C635900F31BFB /* Build configuration list for PBXNativeTarget "HelloClockTests" */;
+			buildPhases = (
+				1CC390EE1A7C635900F31BFB /* Sources */,
+				1CC390EF1A7C635900F31BFB /* Frameworks */,
+				1CC390F01A7C635900F31BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC390F41A7C635900F31BFB /* PBXTargetDependency */,
+			);
+			name = HelloClockTests;
+			productName = HelloClockTests;
+			productReference = 1CC390F21A7C635900F31BFB /* HelloClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC390D21A7C635900F31BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = nccu;
+				TargetAttributes = {
+					1CC390D91A7C635900F31BFB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1CC390F11A7C635900F31BFB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1CC390D91A7C635900F31BFB;
+					};
+				};
+			};
+			buildConfigurationList = 1CC390D51A7C635900F31BFB /* Build configuration list for PBXProject "HelloClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC390D11A7C635900F31BFB;
+			productRefGroup = 1CC390DB1A7C635900F31BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC390D91A7C635900F31BFB /* HelloClock */,
+				1CC390F11A7C635900F31BFB /* HelloClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC390D81A7C635900F31BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C202F5A1A7CB02B00C23AEF /* Main.storyboard in Resources */,
+				1CC390ED1A7C635900F31BFB /* LaunchScreen.xib in Resources */,
+				1CC390EA1A7C635900F31BFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC390F01A7C635900F31BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC390D61A7C635900F31BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC390E01A7C635900F31BFB /* AppDelegate.swift in Sources */,
+				1CC390E31A7C635900F31BFB /* HelloClock.xcdatamodeld in Sources */,
+				1C202F551A7C7D2800C23AEF /* AddUserTableViewController.swift in Sources */,
+				1CB76EE21A7D8D0200A1A8DD /* LoginViewController.swift in Sources */,
+				1CB76ED01A7D5B5100A1A8DD /* ConnectViewController.swift in Sources */,
+				1C202F5E1A7CF2A400C23AEF /* FriendsTableViewCell.swift in Sources */,
+				1CB76ECE1A7CFAB700A1A8DD /* FriendDetailTableViewCell.swift in Sources */,
+				1CB76EE01A7D789300A1A8DD /* User.swift in Sources */,
+				1CB76ED41A7D747300A1A8DD /* RecieveCallViewController.swift in Sources */,
+				1CB76EDE1A7D789300A1A8DD /* Clock.swift in Sources */,
+				1C202F511A7C760100C23AEF /* FriendsTableViewController.swift in Sources */,
+				1CB76ED21A7D5BAF00A1A8DD /* CardViewController.swift in Sources */,
+				1C202F531A7C782B00C23AEF /* FriendsDetailViewController.swift in Sources */,
+				1C202F571A7C804E00C23AEF /* ClockViewController.swift in Sources */,
+				1CB76EDF1A7D789300A1A8DD /* Friend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC390EE1A7C635900F31BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC390F91A7C635900F31BFB /* HelloClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CC390F41A7C635900F31BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC390D91A7C635900F31BFB /* HelloClock */;
+			targetProxy = 1CC390F31A7C635900F31BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C202F581A7CB02B00C23AEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C202F591A7CB02B00C23AEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC390EB1A7C635900F31BFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC390EC1A7C635900F31BFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC390FA1A7C635900F31BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC390FB1A7C635900F31BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC390FD1A7C635900F31BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CC390FE1A7C635900F31BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CC391001A7C635900F31BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloClock.app/HelloClock";
+			};
+			name = Debug;
+		};
+		1CC391011A7C635900F31BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloClock.app/HelloClock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC390D51A7C635900F31BFB /* Build configuration list for PBXProject "HelloClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC390FA1A7C635900F31BFB /* Debug */,
+				1CC390FB1A7C635900F31BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC390FC1A7C635900F31BFB /* Build configuration list for PBXNativeTarget "HelloClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC390FD1A7C635900F31BFB /* Debug */,
+				1CC390FE1A7C635900F31BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC390FF1A7C635900F31BFB /* Build configuration list for PBXNativeTarget "HelloClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC391001A7C635900F31BFB /* Debug */,
+				1CC391011A7C635900F31BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CC390E11A7C635900F31BFB /* HelloClock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CC390E21A7C635900F31BFB /* HelloClock.xcdatamodel */,
+			);
+			currentVersion = 1CC390E21A7C635900F31BFB /* HelloClock.xcdatamodel */;
+			path = HelloClock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CC390D21A7C635900F31BFB /* Project object */;
+}
